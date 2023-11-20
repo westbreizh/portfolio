@@ -91,36 +91,42 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - obecnie",
+      "company": "My Home Compagny",
+      "title": " Développeur web junior",
+      "years": "2023 ",
       "mainTech": [
-        "Angular 8/9/10"
+        "React"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
+
+        "Redux",
+        "Sass",
+        "Node.js",
+        "Express",
+        "MySql"
+
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Stażystka",
-      "years": "01.2018 - 09.2019",
+      "company": "openClassrooms",
+      "title": " Etudiant développeur web",
+      "years": "2022 ",
       "mainTech": [
-        "Angular 7/8"
+        ""
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "Swagger",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "html5",
+        "css3",
+        "Sass",
+        "javascript",
+        "react",
+        "Redux",
+        "Node.js",
+        "Express",
+        "MySql"
       ]
+  
     }
+  
   ]
 }
