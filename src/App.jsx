@@ -21,6 +21,7 @@ function App() {
 
 
   useEffect(() => {
+
     loadSharedData();
     applyPickedLanguage(window.$primaryLanguage, languageIconId);// applyPickedLanguage --> appliquer la langue sélectionnée
   }, []);
