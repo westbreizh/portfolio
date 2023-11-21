@@ -1,0 +1,132 @@
+{
+  "basic_info": {
+    "description_header": "Bonjour",
+    "description":  "👋  Aurélien, enchanté ! En tant que développeur web junior, je  m'interresse aux différents technologies proposés par l'éco-système du web . Ci-dessous vous pourrez découvrir les différents projets que j'ai pu mené à bien. Bonne naviguation ! ",
+    "section_name": {
+      "about": "Me concernant",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "experience": "Expériences"
+    }
+  },
+  "projects": [
+    {
+      "title": "Click and raquette",
+      "startDate": "2023",
+      "description": "Site web proposant un service de collecte de raquette pour cordage de celle-ci",
+      "images": [
+        "images/portfolio/click/click1.png",
+        "images/portfolio/click/click2.png",
+        "images/portfolio/click/click3.png"
+      ],
+      "url": "https://click-and-raquette.com/",
+      "technologies": [
+
+        {
+          "name": "React",
+          "class": "devicon-react-plain"
+        },
+
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original"
+        },
+
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain"
+        }
+      ]
+    },
+
+    {
+      "title": "kasana",
+      "startDate": "2022",
+      "description": "site de location de logement",
+      "images": [
+        "images/portfolio/kasana/kasa1.png",
+        "images/portfolio/kasana/kasa2.png"
+      ],
+      "url": "https://westbreizh.github.io/kasana/",
+      "technologies": [
+                  {
+          "name": "React",
+          "class": "devicon-react-plain"
+        },
+
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        }
+
+      ]
+    },
+
+    {
+      "title": "Ohmyfood",
+      "startDate": "2022",
+      "description": "Projet lors de ma formation d'un site de restaurants",
+      "images": [
+        "images/portfolio/ohMyFood/myFood1.png",
+        "images/portfolio/ohMyFood/myFood2.png",
+        "images/portfolio/ohMyFood/myFood3.png"
+      ],
+      "url": "https://westbreizh.github.io/P3-food/index.html",
+      "technologies": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        }
+      ]
+    }
+
+  ],
+  "experience": [
+    {
+      "company": "My Home Compagny",
+      "title": " Développeur web junior",
+      "years": "2023 ",
+      "mainTech": [
+        "React"
+      ],
+      "technologies": [
+
+        "Redux",
+        "Sass",
+        "Node.js",
+        "Express",
+        "MySql"
+
+      ]
+    },
+    {
+      "company": "openClassrooms",
+      "title": " Etudiant développeur web",
+      "years": "2022 ",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        "Html5",
+        "Css3",
+        "Sass",
+        "Javascript",
+        "React",
+        "Redux",
+        "Node.js",
+        "Express",
+        "MySql"
+      ]
+  
+    }
+  
+  ]
+}

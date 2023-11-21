@@ -40,6 +40,7 @@ const ProjectDetailsModal = (props) => {
     const imageSrc = `${process.env.PUBLIC_URL}/${elem}`;
     return <div key={i} data-src={imageSrc} />;
   });
+  
   return (
     <Modal
       {...props}
