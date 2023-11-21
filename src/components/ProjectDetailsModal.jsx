@@ -36,8 +36,10 @@ const ProjectDetailsModal = (props) => {
     </li>
   ));
 
-  const img = images.map((elem, i) => <div key={i} data-src={elem} />);
-
+  const img = images.map((elem, i) => {
+    const imageSrc = `${process.env.PUBLIC_URL}/${elem}`;
+    return <div key={i} data-src={imageSrc} />;
+  });
   return (
     <Modal
       {...props}

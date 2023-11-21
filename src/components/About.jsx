@@ -13,7 +13,7 @@ function About(props) {
   let about = "";
 
   if (sharedBasicInfo) {
-    profilepic = "images/" + sharedBasicInfo.image;
+    profilepic = `${process.env.PUBLIC_URL}/images/${sharedBasicInfo.image}`;
   }
 
   if (resumeBasicInfo) {

@@ -17,6 +17,7 @@ function Projects(props) {
   if (props.resumeProjects && props.resumeBasicInfo) {
     var sectionName = props.resumeBasicInfo.section_name.projects;
     var projects = props.resumeProjects.map(function (project) {
+      const imageSrc = `${process.env.PUBLIC_URL}/${project.images[0]}`;
       return (
         <div
           className="col-sm-12 col-md-6 col-lg-4"
@@ -27,7 +28,7 @@ function Projects(props) {
             <div className="foto" onClick={() => detailsModalShowHandler(project)}>
               <div>
                 <img
-                  src={project.images[0]}
+                  src={imageSrc}
                   alt="projectImages"
                   height="230"
                   style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
