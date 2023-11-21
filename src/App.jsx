@@ -21,7 +21,9 @@ function App() {
 
 
   useEffect(() => {
+
     loadSharedData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     applyPickedLanguage(window.$primaryLanguage, languageIconId);// applyPickedLanguage --> appliquer la langue sélectionnée
   }, []);
 
